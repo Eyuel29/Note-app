@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnMenuSelectNotes"
+        android:enabled="true"
+        android:title="Select">
+    </item>
+
+    <item
+        android:id="@+id/btnMenuDeleteNote"
+        android:enabled="false"
+        android:title="Delete note">
+    </item>
+
+    <item
+        android:id="@+id/btnMenuDeleteAll"
+        android:enabled="false"
+        android:title="Delete All">
+    </item>
+
+    <item
+        android:id="@+id/btnMenuOpenNote"
+        android:enabled="false"
+        android:title="Sort">
+    </item>
+</menu>
